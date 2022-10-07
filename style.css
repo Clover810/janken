@@ -1,0 +1,23 @@
+html {
+  touch-action: manipulation;
+}
+
+.savebtn {
+  width: 7em;
+  height: 4em;
+}
+
+.savedelbtn {
+  width: 7em;
+  height: 4em;
+}
+
+.autobtn {
+  width: 4em;
+  height: 4em;
+}
+
+.buckup {
+  width: 8em;
+  height: 4em;
+}

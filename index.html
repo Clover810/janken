@@ -1,0 +1,30 @@
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>ジャンケン</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <script src="main.js"></script>
+    <center>
+      <font size="6"><h1>ジャンケンプログラム</h1></font>
+      <font size="5" id="Score"></font><br>
+      <font size="5" id="HighScore"></font><br>
+      <script type="text/javascript">
+      load();
+      </script>
+      <!-- ジャンケンの手 -->
+      <img src="img/janken_gu.png" id="hand" onclick="janken(0);">
+      <img src="img/janken_choki.png" id="hand" onclick="janken(1)">
+      <img src="img/janken_pa.png" id="hand" onclick="janken(2)">
+    </center><hr align="center" size="10" width="100%" color="#00ff00">
+      <!-- ボタン -->
+      <button class="savebtn" type="button" onclick="save();">セーブ</button>
+      <button class="savedelbtn" type="button" onclick="savedel();">セーブ削除</button>
+      <h2>オートセーブ</h2>
+      <button class="autobtn" id="Auto" type="button" onclick="autosave();">ON</button>
+      <h2>バックアップ</h2>
+      <button class="buckup" type="button" onclick="importsave();">インポート</button>
+      <button class="buckup" type="button" onclick="exportsave();">エクスポート</button>
+  </body>
+</html>
