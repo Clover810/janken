@@ -155,7 +155,7 @@ function moneyget(money) {
       score -= money;
       alert (money + "円分の課金カードと交換しました\nこのメッセージをスクショして\nClover114514810にてTwitterでDMを下さい");
     } else {
-      alert (交換をキャンセルしました);
+      alert ("交換をキャンセルしました");
     }
   } else {
     alert ((money - score) + "スコア足りません");
