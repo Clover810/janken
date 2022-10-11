@@ -228,7 +228,7 @@ function shop(shopselector) {
       if (score >= powerupcost) {
         score -= powerupcost;
         power += 1;
-        powerupcost = Math.floor(3.15**power*powerupcost);
+        powerupcost = Math.floor(2.15**power*powerupcost);
         alert ("購入成功\nパワー: " + (power-1) + "→" + power);
       } else {
         alert ((powerupcost - score) + " スコア足りません");
