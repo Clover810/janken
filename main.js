@@ -240,7 +240,7 @@ function shop(shopselector) {
       if (score >= robotcost) {
         score -= robotcost;
         robot += 1;
-        robotcost = Math.floor(1.15**power*robotcost);
+        robotcost = Math.floor(1.15**robot*robotcost);
         alert ("購入成功\nロボット: " + (robot-1) + "→" + robot);
       } else {
         alert ((robotcost - score) + " スコア足りません");
