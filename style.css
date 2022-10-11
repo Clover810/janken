@@ -1,0 +1,32 @@
+html {
+  touch-action: manipulation;
+}
+
+.savebtn {
+  width: 7em;
+  height: 4em;
+}
+
+.savedelbtn {
+  width: 7em;
+  height: 4em;
+}
+
+.autobtn {
+  width: 4em;
+  height: 4em;
+  vertical-align : top;
+}
+
+.buckup {
+  width: 8em;
+  height: 4em;
+}
+
+.money {
+  background: yellow;
+}
+
+.shop {
+  margin:3%;
+}
