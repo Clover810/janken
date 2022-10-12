@@ -232,7 +232,7 @@ function shop(shopselector) {
     if (a == true) {
       if (score >= powerupcost) {
         score -= powerupcost;
-        power = power*2;
+        power += 1;
         powerdummy += 1;
         powerupcost = Math.floor(1.3**(powerdummy+1)*100);
         alert ("購入成功\nパワー: " + (powerdummy-1) + "→" + powerdummy);
