@@ -234,7 +234,7 @@ function shop(shopselector) {
         score -= powerupcost;
         power = power*2;
         powerdummy += 1;
-        powerupcost = Math.floor(1.3**(powerdummy+1)*powerupcost);
+        powerupcost = Math.floor(1.3**(powerdummy+1)*100);
         alert ("購入成功\nパワー: " + (powerdummy-1) + "→" + powerdummy);
       } else {
         alert ((powerupcost - score) + " スコア足りません");
@@ -246,7 +246,7 @@ function shop(shopselector) {
       if (score >= robotcost) {
         score -= robotcost;
         robot += 1;
-        robotcost = Math.floor(1.15**robot*robotcost);
+        robotcost = Math.floor(1.15**robot*1000);
         alert ("購入成功\nロボット: " + (robot-1) + "→" + robot);
       } else {
         alert ((robotcost - score) + " スコア足りません");
