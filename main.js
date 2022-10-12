@@ -283,4 +283,4 @@ setInterval(() => {
 // ロボット
 setInterval(() => {
   score += robot;
-  }, 10000);
+  }, 1000);
