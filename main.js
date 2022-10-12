@@ -170,8 +170,8 @@ function janken(player) {
 function textload() {
   document.getElementById("Score").innerHTML = "スコア: " + score;
   document.getElementById("HighScore").innerHTML = "ハイスコア: " + highscore;
-  document.getElementById("scorepersecond").innerHTML = (robot / 10) + " Score per second";
-  document.getElementById("Poweruplvl").innerHTML = "Lv." + powerdummy;
+  document.getElementById("scorepersecond").innerHTML = (robot) + " Score per second";
+  document.getElementById("Poweruplvl").innerHTML = "Lv." + (powerdummy+1);
   document.getElementById("Powerupcost").innerHTML = "コスト: " + powerupcost + " Score";
   document.getElementById("Robotlvl").innerHTML = "Lv." + robot;
   document.getElementById("Robotcost").innerHTML = "コスト: " + robotcost + " Score";
